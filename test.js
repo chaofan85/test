@@ -112,7 +112,7 @@ function needDecode(s) {
 
 // Question 3:
 
-function change(amount, coins) {
+function changePossibilities(amount, coins) {
   let combinations = new Array(amount + 1);
   combinations.fill(0);
   combinations[0] = 1;
